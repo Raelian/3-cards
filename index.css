@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+/* Primary colors */
+/* Neutral colors */
+/* Fonts */
+/*
+    Mobile 375 px
+    Desktop 1440 px
+*/
+:root {
+  font-size: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+#wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  margin: 5.5rem 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 750px) {
+  #wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 15em;
+  }
+}
+
+#wrapper .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  padding: 50px;
+  max-width: 315px;
+}
+
+#wrapper .cards .icons {
+  margin-top: 1rem;
+}
+
+#wrapper .cards .headers {
+  font-family: "Big Shoulders Display", cursive;
+  color: #f2f2f2;
+  font-size: 2.6rem;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+}
+
+#wrapper .cards p {
+  margin-top: 2rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+#wrapper .cards .buttons {
+  background-color: #f2f2f2;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  border: 3px solid #f2f2f2;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  width: 150px;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 750px) {
+  #wrapper .cards .buttons {
+    margin-top: 6rem;
+    margin-bottom: .1rem;
+  }
+}
+
+#wrapper .cards:nth-child(1) {
+  background-color: #e38826;
+}
+
+#wrapper .cards:nth-child(1) button {
+  color: #e38826;
+}
+
+#wrapper .cards:nth-child(1) button:hover {
+  background-color: #e38826;
+  color: #f2f2f2;
+}
+
+#wrapper .cards:nth-child(2) {
+  background-color: #006970;
+}
+
+#wrapper .cards:nth-child(2) button {
+  color: #006970;
+}
+
+#wrapper .cards:nth-child(2) button:hover {
+  background-color: #006970;
+  color: #f2f2f2;
+}
+
+#wrapper .cards:nth-child(3) {
+  background-color: #004241;
+}
+
+#wrapper .cards:nth-child(3) button {
+  color: #004241;
+}
+
+#wrapper .cards:nth-child(3) button:hover {
+  background-color: #004241;
+  color: #f2f2f2;
+}
+/*# sourceMappingURL=index.css.map */
